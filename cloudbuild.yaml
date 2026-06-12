@@ -19,7 +19,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'its-web-service'
+      - 'its-web-service-raviraj'
       - '--image=us-central1-docker.pkg.dev/$PROJECT_ID/its-repo/its-app:$SHORT_SHA'
       - '--region=us-central1'
       - '--platform=managed'
